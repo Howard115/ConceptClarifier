@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Concept Clarifier",
+    "version": "1.0",
+    "permissions": ["storage", "activeTab"],
+
+    "action": {
+        "default_popup": "popup.html"
+
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
